@@ -33,3 +33,5 @@ To install and run the project locally, follow these steps:
 The project should now be running on `http://localhost:5173`.
 
 ## Live Link 
+
+https://applandingpage2024.netlify.app/
