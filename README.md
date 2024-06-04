@@ -16,7 +16,7 @@ This is a landing page project built with React and Bootstrap. The project uses 
 2. Features
 3. Advantage
 4. Custom
-5. Testinomial
+5. Testinomial : When you click on a certain user image , that user testinomial will be shown 
 6. BlackBox
 7. Header
 8. AOS Animation
