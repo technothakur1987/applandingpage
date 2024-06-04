@@ -1,0 +1,52 @@
+.navbar{
+    font-family:  Clash Display;
+    margin-top: 2.5rem;
+}
+.active{
+    color: #FF5555!important;
+}
+.nav-link{
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    color: rgba(0, 0, 0, 1);
+    font-family:  Clash Display;
+    
+    
+}
+.navbar-brand img{
+    height: 2.1506rem;
+    width: 7.3125rem;
+}
+.btn-dark{
+    font-size: 1.125rem;
+   font-weight: 500;
+   border-radius: .25rem;
+   font-family:  Clash Display;
+}
+
+
+@media (max-width: 991.98px) { 
+
+    .navbar{
+        font-size: larger;
+        margin-top: 0.5rem;
+    }
+    .nav-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2vh;
+    }
+    .btn-dark{
+        margin: auto;
+        font-size: larger;
+        padding: 0.5rem 2.75rem!important;
+        
+    }
+    .navbar-toggler{
+        color: black;
+    border-color: black;
+    outline: black;
+    }
+ }

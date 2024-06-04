@@ -1,0 +1,773 @@
+
+.home {
+  min-height: 100vh;
+  
+}
+/* .star1 {
+  right: -8%;
+  top: -5vw;
+  width: 4rem;
+  height: 4rem;
+} */
+.star1 {
+  right: -1%;
+  top: -5vw;
+  width: 2rem;
+  height: 2rem;
+}
+.hero {
+  min-height: 85vh;
+}
+.img-section {
+  min-height: 100%;
+  width: 50%;
+  left: 50%;
+  
+  
+}
+.img1 {
+  width: 27.5781rem;
+  height: 40rem;
+  transform: rotateX(15deg);
+  top: -9%;
+  z-index: 9999;
+  left: 10%;
+}
+.img2 {
+  width: 27.5781rem;
+  height: 40rem;
+  transform: rotateX(15deg);
+  top: 1%;
+  z-index: 9998;
+  left: 26%;
+}
+.img3 {
+    width: 25.5781rem;
+    height: 37rem;
+    transform: rotateX(15deg);
+    top: 11%;
+    z-index: 9997;
+    left: 45%;
+  
+}
+.img4 {
+  width: 28.5781rem;
+  height: 42rem;
+  top: -15%;
+  z-index: 9996;
+  left: 20%;
+}
+
+.redBlur {
+  position: absolute;
+  background-image: url("../assets/redblur.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 30%;
+  height: 30%;
+
+  top: 62%;
+  left: 61%;
+
+  z-index: 9996;
+}
+.star2 {
+  width: 3rem;
+  height: 3rem;
+  z-index: 9999;
+  top: 70%;
+  left: 64%;
+}
+.rightDownImageWrapper {
+  height: 22.3588rem;
+  width: 50%;
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 9998;
+}
+.star3 {
+  width: 3rem;
+  height: 3rem;
+  z-index: 9999;
+  left: 15%;
+  bottom: 35%;
+  transform: rotateX(-45deg);
+}
+.rightTopTextWrapper {
+  min-height: 10rem;
+  width: 50%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  z-index: 9999;
+}
+
+.rightTopTextWrapper h2 {
+  font-family: Clash Display;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  text-align: left;
+  color: #000000;
+  text-transform: capitalize;
+}
+.rightTopTextWrapper p {
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+
+  opacity: 0.5;
+}
+.herobtn {
+  border-radius: 4px;
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-align: left;
+}
+.btn-dark:hover{
+  cursor: pointer;
+}
+/*css for home features*/
+
+.mobilewithlines{
+    
+    transform: rotate(14deg);
+    width: 45vw;
+    
+    
+}
+.testnomialimage{
+    
+  transform: rotate(0deg);
+  width: 55vw;
+  height: 65%;
+  
+  
+}
+.userimagewrapper .img-fluid{
+  height: 8vh;
+}
+.userimagewrapper .img-fluid:hover{
+  cursor: pointer;
+}
+
+.selected-user {
+  transform: scale(1.2);
+}
+
+
+.custommobileimage{
+    
+  transform: rotate(0deg);
+  width: 45vw;
+  
+  
+}
+.featurestext{
+  padding-left: 13vw;
+}
+
+
+.featurestext h2{
+    font-family: Clash Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+
+}
+.featurestext h3{
+    font-family: Clash Display;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.16em;
+text-align: left;
+color:  rgba(255, 85, 85, 1);
+;
+}
+.featurep{
+    font-family: Clash Display;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: left;
+opacity: 0.5;
+text-transform: capitalize;
+
+}
+.icon{
+    width: 24px;
+height: 24px;
+
+
+}
+.icon2{
+  width: 48px;
+height: 48px;
+
+
+}
+.faetureheadingp{
+    font-family: Clash Display;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+margin-bottom: 0;
+text-transform: capitalize;
+
+}
+.starad {
+  width: 3rem;
+  height: 3rem;
+  z-index: 9999;
+  top:0;
+  left: 98%;
+ position: relative!important;
+ margin-bottom: 50vh;
+}
+
+.starad1 {
+  width: 3rem;
+  height: 3rem;
+  z-index: 9999;
+ 
+  left: 65%;
+  bottom: 0;
+ position: relative!important;
+ margin-bottom: -50vh ;
+}
+.starad2 {
+  width: 1rem;
+  height: 1rem;
+  z-index: 9999;
+  left: 32%;
+  bottom: 0;
+  position: relative !important;
+  margin-bottom: 50vh;
+}
+
+.testinomail h2{
+  font-family: Clash Display;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0.16em;
+text-align: center;
+color: rgba(0, 0, 0, 1);
+text-transform: uppercase;
+
+}
+.testinomail h3{
+  font-family: Clash Display;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+
+color: rgba(0, 0, 0, 1);
+text-transform: capitalize;
+
+}
+.testinomialnamep{
+  font-family: Clash Display;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+
+}
+.faqh2{
+  font-family: Clash Display;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.16em;
+  text-align: left;
+  color: rgba(255, 85, 85, 1);
+
+  
+}
+.faq h3{
+  font-family: Clash Display;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  
+}
+.redbg{
+  background-color: rgba(255, 85, 85, 1);
+  border-radius: 8px;
+}
+.redbg h2{
+  font-family: Clash Display;
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: rgba(255, 255, 255, 1);
+text-transform: capitalize;
+
+}
+.redbg p{
+  font-family: Clash Display;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: justified;
+color: rgba(255, 255, 255, 1);
+
+}
+.whitebg{
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+}
+.whitebg h2{
+  font-family: Clash Display;
+font-size: 28px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+color: rgba(0, 0, 0, 1);
+
+text-transform: capitalize;
+
+}
+.whitebg p{
+  font-family: Clash Display;
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+text-align: justified;
+color: rgba(0, 0, 0, 1);
+
+}
+.staradfaq{
+  position: relative !important;
+  height: 1rem;
+  width: 1rem;
+  margin-bottom: 0;
+  top: -5vh;
+  left: 55vw;
+  
+}
+.starleft{
+  position: relative !important;
+  height: 1rem;
+  width: 1rem;
+  margin-bottom: 0;
+  top: 25vh;
+  left: -5vw;
+}
+
+.hoverred:hover{
+  color: rgba(255, 85, 85, 1);
+  cursor: pointer;
+}
+.redBlurfeatures1{
+ position: absolute;
+
+}
+.redBlurfeaturesad{
+  position: absolute;
+  height: 30%;
+  width: 30%;
+  opacity: 0.7;
+  
+  right: 0vw;
+  top: 8vh;
+
+} 
+.redBlurfeatures2{
+  position: absolute;
+  right: -15vw;
+  height: 30%;
+  width: 30%;
+  top: -0vh;
+  opacity: 0.7;
+  z-index: 99999;
+ 
+ }
+ .redBlurfeaturescus{
+  position: absolute;
+  height: 5vh;
+  width: 25vw;
+  left: 4%;
+  top: 18vh;
+ 
+ }
+ .redBlurfeaturestes{
+  position: absolute;
+  height: 5vh;
+  width: 20vw;
+  left: 0%;
+  top: 17vh;
+ }
+ .homefeatures {
+  
+ }
+
+/*MEDIAqUERIES*/
+
+
+
+
+
+
+
+
+@media (max-width: 1399.98px) {
+}
+
+@media (max-width: 1199.98px) {
+}
+
+@media (max-width: 991.98px) {
+    .home {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        overflow-x: hidden;
+        position: static!important;
+      }
+      .hero {
+        min-height: 85vh;
+      }
+      .rightTopTextWrapper {
+        width: 100%;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        position: static!important;
+      }
+    
+      .rightTopTextWrapper h2 {
+        text-align: center;
+      }
+      .rightTopTextWrapper p {
+        text-align: center;
+      }
+      .btn-wrqapper{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+      }
+      .herobtn {
+        border-radius: 4px;
+        font-family: Clash Display;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+        text-align: left;
+        padding-left: 0.55rem!important;
+        padding-right: 0.55rem !important;
+        margin-left: 0!important;
+      }
+      .rightDownImageWrapper {
+        height: 45vh;
+        width: 100%;
+        
+        position: static;
+        padding-top: 15vh;
+        
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+      }
+      .rightDownImageWrapper img{
+        width: 90vw!important;
+        
+      }
+      .star3 , .star1, .star2 {
+          display: none;
+        }
+        .img-section{
+          display: none;
+        }
+        .redBlur {
+          display: none;}
+
+          .homefeatures{
+            flex-direction: column;
+            padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        overflow-x: hidden;
+          }
+          .mqw-100{
+            width: 100%;
+          }
+          .mobilewithlines{
+    
+            transform: rotate(14deg);
+            width: 70vw;
+            
+            
+        }
+        .testnomialimage{
+    
+          transform: rotate(14deg);
+          width: 90vw;
+          
+          
+      }
+        .homefeatures{
+          padding-left: 0.5rem!important;
+          padding-right: 0.5rem!important;
+        }
+        .featurestext{
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .featurestext h2{
+         text-align: center;
+         margin-bottom: 5vh!important;
+      
+      }
+      .featurestext h3{
+        text-align: center;
+      }
+      .featurep{
+        text-align: justify;
+      
+      }
+      .mqp{
+        text-align: center;
+      }
+      .icon{
+          width: 24px;
+      height: 24px;
+      
+      
+      }
+      .faetureheadingp{
+          font-family: Clash Display;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 28px;
+      text-align: left;
+      color: rgba(0, 0, 0, 1);
+      margin-bottom: 0;
+      text-transform: capitalize;
+      
+      }
+      .mqps-0{
+        padding-left: 0!important;
+      }
+      .mqorder1{
+        order: 2!important;
+      }
+      .custommobileimage {
+        transform: rotate(0deg);
+        width: 70vw;
+    }
+     .starad {
+      position: relative!important;
+      width: 3rem;
+      height: 3rem;
+      z-index: 9999;
+      top: 0;
+      left: 37%;
+      margin-bottom: 0; 
+  } 
+  .starad  img-fluid{
+    
+  }
+  .starad1 {
+    position: relative!important;
+    width: 3rem;
+    height: 3rem;
+    z-index: 9999;
+    top: 5vh;
+    left: 37%;
+    margin-bottom: 0; 
+} 
+.starad2 {
+  display: none;
+}
+.mqpx0{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+.mqpx0 li{
+  padding-left: 0!important;
+  padding-right: 0!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mqpy0{
+  padding-top: 0!important;
+  padding-bottom: 0!important;
+}
+.mqmb-3{
+  margin-bottom: 1rem!important;
+}
+.staradtest {
+  position: relative !important;
+  height: 1rem;
+  width: 1rem;
+  margin-bottom: 0;
+  top: -5vh;
+}
+.starleft{
+ display: none;
+}
+.mqdnone{
+  display: none;
+}
+.bbimage{
+  height: 30vh;
+}
+.redBlurfeatures1{
+  top: 7%;
+}
+.redBlurfeaturesad{
+  position: absolute;
+  height: 41%;
+  width: 66%;
+  opacity: 0.7;
+  right: 21%;
+  top: 12%;
+}
+.redBlurfeaturescus {
+  position: absolute;
+  height: 40%;
+  width: 66%;
+  left: 14%;
+  top: 14vh;
+}
+.redBlurfeaturestes {
+position: absolute;
+height: 40%;
+width: 75%;
+left: 12%;
+top: 12vh;
+}
+
+
+
+}
+
+@media (max-width: 767.98px) {
+  .rightDownImageWrapper {
+    
+    padding-top:0;
+    
+    
+  }
+  .redbg, .whitebg{
+    margin-bottom: 5vh;
+  }
+  .faqh2{
+    text-align: center;
+  }
+  .faq h3 {
+    
+    text-align: center;
+   
+}
+.faq .row{
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.mqorder-1 {
+  order: 1;
+}
+
+.mqorder-2 {
+  order: 2;
+}
+
+.mqorder-3 {
+  order: 3;
+}
+
+.mqorder-4 {
+  order: 4;
+}
+
+.mqorder-5 {
+  order: 5;
+}
+
+.mqorder-6 {
+  order: 6;
+}
+
+.redBlurfeatures1{
+  top: 7%;
+}
+.redBlurfeaturesad{
+  position: absolute;
+  height: 41%;
+  width: 66%;
+  opacity: 0.7;
+  right: 21%;
+  top: 12%;
+}
+.redBlurfeaturescus {
+  position: absolute;
+  height: 40%;
+  width: 66%;
+  left: 14%;
+  top: 14vh;
+}
+.redBlurfeaturestes {
+position: absolute;
+height: 40%;
+width: 75%;
+left: 12%;
+top: 12vh;
+}
+  
+}
+
+
+@media (max-width: 575.98px) {
+  .redBlurfeatures1{
+    top: 7%;
+  }
+  .redBlurfeaturesad{
+    position: absolute;
+    height: 41%;
+    width: 66%;
+    opacity: 0.7;
+    right: 21%;
+    top: 12%;
+  }
+  .redBlurfeaturescus {
+    position: absolute;
+    height: 40%;
+    width: 66%;
+    left: 14%;
+    top: 14vh;
+}
+.redBlurfeaturestes {
+  position: absolute;
+  height: 40%;
+  width: 75%;
+  left: 12%;
+  top: 12vh;
+}
+  }
+
